@@ -1,0 +1,12 @@
+
+
+@media (max-width: 1599px) {
+    .max-1600\:max-w-\[1004px\] {
+        max-width: 1004px;
+    }
+}
+@media (max-width: 1279px) {
+    .max-1280\:max-w-\[912px\] {
+        max-width: 912px;
+    }
+}

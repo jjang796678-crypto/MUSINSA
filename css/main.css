@@ -1,0 +1,17 @@
+/* 초기화 */
+@import url(reset.css);
+
+/* 공통 영역 (.inner) */
+.inner{
+    position: relative;
+    /* width: 80%; */
+    /* max-width: 1280px; */
+    margin: auto;
+    background-color: #b5d692 ;
+}
+
+/* 이미지 */
+img {
+    width: 100%;
+    display: block;
+}

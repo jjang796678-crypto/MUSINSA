@@ -1,0 +1,90 @@
+
+/* 상단 메뉴 영역 */
+.head_menu_area {
+    /* 수정용 임시 값 > width 까지 */
+    /* width: 80%;  임시 수정 종료 */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: fixed;
+    /* align-items: center; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    background-color: transparent ; 
+    transform: none;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+}
+/* 상단 메뉴  */
+.head_menu_area > .menu_list{
+    width: 75%;
+    height: 76px;
+    margin: auto;
+    padding: 0 48px;
+    border-radius: 38px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255,255,255,.5);
+    display: flex; 
+    justify-content: space-between ; 
+    align-items: center;
+    font-size: 18px;
+}
+/* 상단 메뉴 좌측  */
+.head_menu_area > .menu_list > .menu_left{
+    /* 임시로 부여한 고정값 > width 까지 */
+    width: 700px; 
+    display: flex;
+    justify-content: space-between ; 
+}
+/* 상단 메뉴 좌측 로고 */
+.head_menu_area > .menu_list > .menu_left > .logo{
+    /* 임시로 부여한 고정값 > height 까지 */
+    width: 108px;
+    height: 76px;
+    display: flex;
+    justify-content: flex-start ; 
+    align-items: center;
+}
+/* 상단 메뉴 좌측 버튼  */
+.head_menu_area > .menu_list > .menu_left > .nav{
+    /* 임시 부여 값 > width 까지 */
+    width: 500px;
+    height: 76px;
+    padding: 28px 0 ;
+    display: flex;
+    justify-content: space-between ; 
+    align-items: center;
+}
+.head_menu_area > .menu_list > .menu_left > .nav a {
+    display: inline-block;
+    height: 22px;
+}
+/* 메뉴 오른쪽  */
+.head_menu_area > .menu_list > .menu_right{
+    /* width: 57px; */
+    height: 28px;
+    display: flex;
+    /* justify-content: space-between ;  */
+    justify-content: flex-end;
+    align-items: center;
+}
+/* 언어  */
+.head_menu_area > .menu_list > .menu_right > .lang_area{ 
+    /* display: flex; */
+    width: 100%;
+}
+/* 현재 언어  */
+.head_menu_area > .menu_list > .menu_right > .lang_area > .lang{ 
+    display: flex;
+    justify-content: space-between ; 
+    align-items: center;
+    gap: 12px;
+}
+/* 지구본 아이콘 */
+.head_menu_area > .menu_list > .menu_right > .lang_area > .lang img{
+    width: 20px;
+    height: 20px;
+}
